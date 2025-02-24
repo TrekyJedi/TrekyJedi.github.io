@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey to get to know you</title>
+</head>
+
+<body>
+    <p>This survey will ask some basic qusetions so we can get to know you.</p>
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label>Email:<br />
+                <input type="email" name="email" />
+            </label><br />
+            <label>Username:<br />
+                <input type="text" name="username" maxlength="10" />
+            </label><br />
+            <label>Password:<br />
+                <input type="password" name="password" maxlength="10" />
+            </label>
+        </fieldset>
+
+        <p>What is the subject you wish to learn?
+            <br />
+            <select name="subject">
+                <option value="phone">Computer science</option>
+                <option value="laptop">Astronomy</option>
+                <option value="radio">Video Game Design</option>
+            </select>
+        </p>
+        <p>Write something abot yourself:
+            <br />
+            <textarea name="comment" cols="20" rows="4"></textarea>
+        </p>
+
+        <input type="submit" value="Submit" />
+        <input type="reset" value="reset" />
+    </form>
+    <p>1. How did you find my portfolio?
+        <br />
+        <select name="portfolio" size="2" multiple="multiple">
+            <option value="google searchr">Google Search</option>
+            <option value="social media">Social Media</option>
+            <option value="referral">Referral</option>
+            <option value="other">Other</option>
+    </p>
+    </select>
+    <p>2.Rate your overall experience on my site.
+        <br />
+        <input type="radio" name="experience" value="1" /> 1
+        <input type="radio" name="experience" value="2" /> 2
+        <input type="radio" name="experience" value="3" /> 3
+        <input type="radio" name="experience" value="4" /> 4
+        <input type="radio" name="experience" value="5" /> 5
+    </p>
+    <p>3.Any additional comments?
+        <br />
+        <textarea name="comment" cols="20" rows="4"></textarea>
+    </p>
+
+    <input type="submit" value="Submit" />
+    <input type="reset" value="reset" />
+    </form>
+</body>
+
+</html>
