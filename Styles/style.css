@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 h1 {
     font-style: italic;
     background-color: rgb(175, 175, 175);
@@ -17,7 +19,7 @@ p {
 
 a {
     background-color: rgb(199, 199, 199);
-    width: fit-content
+    width: fit-content;
 }
 
 cite {
@@ -30,4 +32,41 @@ ul,
 dl {
     background-color: rgb(133, 172, 250);
     width: fit-content
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    font-style: normal;
+    font-stretch: condensed;
+}
+
+h1 {
+    font-family: "Roboto Mono", monospace;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+div {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: blue
+}
+
+a:visited {
+    color: rgb(0, 0, 164)
+}
+
+a:hover {
+    text-decoration: underline;
 }
